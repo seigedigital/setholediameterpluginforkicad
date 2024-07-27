@@ -19,8 +19,8 @@
     "kicad_version": "8.0",
     "status": "stable",
     "download_url": "https://github.com/seigedigital/setholediameterpluginforkicad/archive/refs/tags/v1.0.1.zip",
-    "download_sha256": "",
-    "download_size": 
+    "download_sha256": "485c04c53f5605c4e468f2151f67f2eba236c1b86e1d472523ab68a58d0c425d",
+    "download_size": 21986
   }],  
   "license": "GPL"
 }
