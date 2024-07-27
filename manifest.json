@@ -10,9 +10,12 @@
     "contact": "kontakt@seige.digital"
   },
   "versions": [{
-    "version": "1.0",
+    "version": "1.0.0",
     "kicad_version": "8.0",
-    "status": "stable"
+    "status": "stable",
+    "download_url": "https://github.com/seigedigital/setholediameterpluginforkicad/archive/refs/tags/v1.0.0.zip",
+    "download_sha256": "",
+    "download_size": 0
   }],  
   "license": "GPL"
 }
