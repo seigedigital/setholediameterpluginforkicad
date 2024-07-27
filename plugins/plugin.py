@@ -50,11 +50,11 @@ class SetHoleDiameterPlugin(pcbnew.ActionPlugin):
     def defaults(self):
         self.name = "Set Hole Diameter"
         self.category = "Modify PCB"
-        self.description = "Sets the hole diameter of all pads in the PCB"
+        self.description = "Sets the hole diameter of all pads in the PCB."
         self.pcbnew_icon_support = hasattr(self, "show_toolbar_button")
         self.show_toolbar_button = True
-        self.icon_file_name = os.path.join(os.path.dirname(__file__), '../resources/icon.png')
-        self.dark_icon_file_name = os.path.join(os.path.dirname(__file__), '../resources/icon.png')
+        self.icon_file_name = os.path.join(os.path.dirname(__file__), 'icon.png')
+        self.dark_icon_file_name = os.path.join(os.path.dirname(__file__), 'icon.png')
 
     def Run(self):
         pcb = pcbnew.GetBoard()
