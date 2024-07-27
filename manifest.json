@@ -1,0 +1,10 @@
+{
+  "name": "SetHoleDiameterPlugin",
+  "type": "action",
+  "description": "Sets the hole diameter of all pads in the PCB to the same size.",
+  "author": "Leander Seige, seige.digital GbR",
+  "version": "1.0",
+  "icon": "icon.png",
+  "documentation": "https://github.com/seigedigital/setholediameterplugin",
+  "required_api_version": "5.1"
+}
