@@ -9,6 +9,9 @@
     "name": "Leander Seige (seige.digital GbR)",
     "contact": "kontakt@seige.digital"
   },
+  "resources": {
+    "homepage": "https://github.com/seigedigital/setholediameterpluginforkicad"
+  },
   "versions": [{
     "version": "1.0.0",
     "kicad_version": "8.0",
