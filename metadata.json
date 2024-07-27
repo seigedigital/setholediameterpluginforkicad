@@ -15,12 +15,12 @@
     "homepage": "https://github.com/seigedigital/setholediameterpluginforkicad"
   },
   "versions": [{
-    "version": "1.0.0",
+    "version": "1.0.1",
     "kicad_version": "8.0",
     "status": "stable",
-    "download_url": "https://github.com/seigedigital/setholediameterpluginforkicad/archive/refs/tags/v1.0.0.zip",
-    "download_sha256": "f8863e9fee07c87d00ba214cadcf8172a841da21e37a53501aba47edb6c2ca49",
-    "download_size": 21884
+    "download_url": "https://github.com/seigedigital/setholediameterpluginforkicad/archive/refs/tags/v1.0.1.zip",
+    "download_sha256": "",
+    "download_size": 
   }],  
   "license": "GPL"
 }
