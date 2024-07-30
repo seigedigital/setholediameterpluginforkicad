@@ -9,6 +9,9 @@
    id="svg1"
    sodipodi:docname="icon.svg"
    inkscape:version="1.3.2 (091e20e, 2023-11-25)"
+   inkscape:export-filename="../plugins/icon.png"
+   inkscape:export-xdpi="60.959999"
+   inkscape:export-ydpi="60.959999"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -24,8 +27,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="16.774583"
-     inkscape:cx="18.897638"
-     inkscape:cy="18.897638"
+     inkscape:cx="14.396781"
+     inkscape:cy="21.282198"
      inkscape:window-width="1440"
      inkscape:window-height="847"
      inkscape:window-x="0"
@@ -38,56 +41,41 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linejoin:round;paint-order:fill markers stroke"
-       id="rect5"
-       width="10"
-       height="10"
-       x="-2.7755576e-17"
-       y="0" />
-    <circle
-       style="fill:#ffcf00;stroke:#ffffff;stroke-width:0;stroke-linejoin:round;paint-order:fill markers stroke;fill-opacity:1"
+    <path
        id="path1"
-       cx="5"
-       cy="5"
-       r="4.613565" />
-    <circle
-       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linejoin:round;paint-order:fill markers stroke"
-       id="circle1"
-       cx="5"
-       cy="5"
-       r="1.3958994" />
+       style="fill:#ffcf00;stroke:#ffffff;stroke-width:0;stroke-linejoin:round;paint-order:fill markers stroke;fill-opacity:1"
+       d="M 5.0002116 0.38653971 A 4.613565 4.613565 0 0 0 0.38653971 5.0002116 A 4.613565 4.613565 0 0 0 5.0002116 9.6133667 A 4.613565 4.613565 0 0 0 9.6133667 5.0002116 A 4.613565 4.613565 0 0 0 5.0002116 0.38653971 z M 5.0002116 3.6039144 A 1.3958994 1.3958994 0 0 1 6.395992 5.0002116 A 1.3958994 1.3958994 0 0 1 5.0002116 6.395992 A 1.3958994 1.3958994 0 0 1 3.6039144 5.0002116 A 1.3958994 1.3958994 0 0 1 5.0002116 3.6039144 z " />
     <rect
        style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linejoin:round;paint-order:fill markers stroke"
        id="rect1"
-       width="0.1577287"
-       height="4.1798105"
-       x="-1.5592043"
-       y="4.9755859"
-       transform="rotate(-45)" />
+       width="0.19021733"
+       height="5.0407596"
+       x="-1.4586828"
+       y="4.5399494"
+       transform="matrix(0.69186963,-0.72202245,0.69186963,0.72202245,0,0)" />
     <rect
        style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linejoin:round;paint-order:fill markers stroke"
        id="rect2"
-       width="0.1577287"
-       height="4.1798105"
-       x="1.3903227"
-       y="4.9755859"
-       transform="rotate(-45)" />
+       width="0.1808465"
+       height="4.7924323"
+       x="1.4227407"
+       y="4.7786412"
+       transform="matrix(0.70551924,-0.70869077,0.70551924,0.70869077,0,0)" />
     <rect
        style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linejoin:round;paint-order:fill markers stroke"
        id="rect3"
-       width="0.1577287"
-       height="4.1798105"
-       x="6.9159088"
-       y="-5.6926141"
+       width="0.22018608"
+       height="5.8349314"
+       x="6.9850578"
+       y="-7.3455043"
        transform="rotate(45)" />
     <rect
        style="fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linejoin:round;paint-order:fill markers stroke"
        id="rect4"
-       width="0.1577287"
-       height="4.1798105"
-       x="6.9159088"
-       y="1.5085614"
-       transform="rotate(45)" />
+       width="0.21249928"
+       height="5.6312304"
+       x="6.8712893"
+       y="1.4428467"
+       transform="matrix(0.69759679,0.71649056,-0.69759679,0.71649056,0,0)" />
   </g>
 </svg>
