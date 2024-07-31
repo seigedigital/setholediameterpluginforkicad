@@ -6,5 +6,6 @@ zip -r "../SetHoleDiameterPlugin-$version.zip" ./* -x "*.svg" -x README.md -x LI
 
 # for a merge request append 
 #     "download_sha256": "<shasumofarchive",
-#   "download_size": <sumoffilesizes>
+#   "download_size": <sumoffilesizes>,
+#   "install_size": <sizeofarchiveinbytes>
 #  to metadata.json
