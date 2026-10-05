@@ -3,10 +3,26 @@ import wx
 import os
 
 def set_hole_diameter(pcb, diameter):
+    new_size = pcbnew.VECTOR2I_MM(diameter, diameter)
+    changed = 0
+    skipped_slots = 0
     for footprint in pcb.GetFootprints():
         for pad in footprint.Pads():
-            pad.SetDrillSize(pcbnew.VECTOR2I_MM(diameter, diameter))
-            print(f"Set hole diameter of pad {pad.GetPadName()} to {diameter}mm")
+            # Only plated through-hole pads are affected:
+            #  - SMD / CONN pads have no drill: setting one adds a hole.
+            #  - NPTH pads are mechanical/mounting holes: must keep their size.
+            if pad.GetAttribute() != pcbnew.PAD_ATTRIB_PTH:
+                continue
+            # Leave oblong drills (slots) untouched: forcing a round size
+            # would destroy the slot geometry.
+            drill = pad.GetDrillSize()
+            if drill.x != drill.y:
+                skipped_slots += 1
+                continue
+            pad.SetDrillSize(new_size)
+            changed += 1
+            print(f"{footprint.GetReference()} pad {pad.GetPadName()}: hole set to {diameter}mm")
+    print(f"{changed} PTH pad(s) updated, {skipped_slots} slotted pad(s) skipped.")
 
 class DiameterDialog(wx.Dialog):
     def __init__(self, parent, title):
@@ -50,7 +66,7 @@ class SetHoleDiameterPlugin(pcbnew.ActionPlugin):
     def defaults(self):
         self.name = "Set Hole Diameter"
         self.category = "Modify PCB"
-        self.description = "Sets the hole diameter of all pads in the PCB."
+        self.description = "Sets the hole diameter of all plated through-hole (PTH) pads in the PCB."
         self.pcbnew_icon_support = hasattr(self, "show_toolbar_button")
         self.show_toolbar_button = True
         self.icon_file_name = os.path.join(os.path.dirname(__file__), 'icon.png')
